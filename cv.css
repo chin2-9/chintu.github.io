@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #333;
+    font-family: "Josefin Sans";
+    line-height: 1.5;
+}
+
+body {
+    padding: 2rem 2.5rem;
+    background: linear-gradient(#dfe0db, #dfe0db 50%, #fcebe1 50%, #fcebe1);
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+    padding: 0.75rem 0;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+    color: salmon;
+    /* margin-bottom: 1rem; */
+}
+
+p {
+    line-height: 1.5;
+}
+
+section + section {
+    margin-top: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro img {
+    border-radius: 9999px;
+    width: 13rem;
+    height: 15rem;
+}
+
+.intro p {
+    margin-bottom: 2rem;
+    color: #888;
+    font-size: 1.5rem;
+}
+
+.contact ul {
+    margin-top: -2rem;
+}
+
+.contact li {
+    display: block;
+    text-align: left;
+    padding: 1rem;
+    /* border-top: 1px solid #333; */
+    border-bottom: 1px solid #333;
+    color: #777777;
+}
+
+.big-icon {
+    /* display: block; */
+    /* font-size: 100%; */
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: -5px;
+    color: salmon;
+}
+
+.skill > ul {
+    display: grid;
+    grid-template-columns: 3fr 4fr ;
+    /* grid-row-gap: 1rem; */
+    
+}
+
+.skill .inner{
+    list-style: circle;
+    margin-left: 2rem;
+}
+
+.skill ul {
+    margin-top: 1rem;
+}
+
+.timeline .event + .event {
+    padding-top: 1rem;
+}
+
+.timeline .event {
+    display: grid;
+    grid-template-columns: 7ch 1fr;
+}
+
+.timeline .sec {
+    border-left: 1pt solid #888;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+
+.resume__page {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-gap: 4rem;
+    background-color: white;
+    padding: 3rem;
+    /* max-width: 1000px;
+    margin: auto; */
+}
+
+.seminar li{
+    list-style: square;
+    margin-left: 20px;
+}
+.seminar li + li {
+    margin-top: 1rem;
+}
